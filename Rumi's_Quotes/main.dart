@@ -23,26 +23,41 @@ class _QuoteListState extends State<QuoteList> {
     Quote(author: 'Mawlana Rumi', text:'Lovers dont finally meet somewhere They are in each other all along'),
     Quote(author: 'Mawlana Rumi', text:'Dont grieve. Anything you lose comes round in another form'),
     Quote(author: 'Mawlana Rumi', text:'What you seek is seeking you'),
+    Quote(text: '1', author: 'Mawlana Rumi'),
+    Quote(text: '2', author: 'Mawlana Rumi'),
+    Quote(text: '3', author: 'Mawlana Rumi'),
+    Quote(text: '4', author: 'Mawlana Rumi'),
+    Quote(text: '5', author: 'Mawlana Rumi'),
+    Quote(text: '6', author: 'Mawlana Rumi'),
+    Quote(text: '7', author: 'Mawlana Rumi'),
+    Quote(text: '8', author: 'Mawlana Rumi'),
+    Quote(text: '9', author: 'Mawlana Rumi'),
+    Quote(text: '10', author: 'Mawlana Rumi'),
+    Quote(text: 'Made with Love', author: 'By Mohammed Moinuddin'),
+    Quote(text: 'Reach me out on Insta and GitHub', author: '@Moinuddin9777')
   ];
 
   Widget quoteTemplate(quote){
     return Card(
-      margin: EdgeInsets.fromLTRB(16, 16, 16, 0),
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Column(
-          children: [
-            Text(quote.text,
-            style: GoogleFonts.josefinSans(textStyle: TextStyle(color: Colors.deepPurple),fontSize: 20 ,fontWeight: FontWeight.bold , letterSpacing: 2,),
-            ),
-            SizedBox(height: 7),
-            Text(quote.author,
-            style: GoogleFonts.josefinSans(textStyle: TextStyle(color: Colors.deepPurple),fontSize: 18 ,fontWeight: FontWeight.bold , letterSpacing: 2,),
-            )
-          ],
+        margin: EdgeInsets.fromLTRB(16, 16, 16, 0),
+        shape: RoundedRectangleBorder( borderRadius: BorderRadius.circular(30)),
+        shadowColor: Colors.deepPurple,
+        elevation: 9,
+        child: Padding(
+          padding: const EdgeInsets.all(18.0),
+          child: Column(
+            children: [
+              Text(quote.text,
+                style: GoogleFonts.alatsi(textStyle: TextStyle(color: Colors.deepPurple),fontSize: 20 ,fontWeight: FontWeight.bold , letterSpacing: 2,),
+              ),
+              SizedBox(height: 7),
+              Text(quote.author,
+                style: GoogleFonts.josefinSans(textStyle: TextStyle(color: Colors.deepPurple),fontSize: 18 ,fontWeight: FontWeight.bold , letterSpacing: 2,),
+              )
+            ],
+          ),
         ),
-      ),
-    );
+      );
   }
 
   @override
@@ -56,11 +71,13 @@ class _QuoteListState extends State<QuoteList> {
         centerTitle: true,
         backgroundColor: Colors.deepPurple,
       ),
-      body:
-      Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: quotes.map((quote) => quoteTemplate(quote)).toList(),
+      body: 
+      SingleChildScrollView(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: quotes.map((quote) => quoteTemplate(quote)).toList(),
+        ),
       ),
     );
   }
