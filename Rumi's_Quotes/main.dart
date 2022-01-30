@@ -27,12 +27,12 @@ class _QuoteListState extends State<QuoteList> {
     Quote(text: '2', author: 'Mawlana Rumi'),
     Quote(text: '3', author: 'Mawlana Rumi'),
     Quote(text: '4', author: 'Mawlana Rumi'),
-    Quote(text: '5', author: 'Mawlana Rumi'),
-    Quote(text: '6', author: 'Mawlana Rumi'),
-    Quote(text: '7', author: 'Mawlana Rumi'),
-    Quote(text: '8', author: 'Mawlana Rumi'),
-    Quote(text: '9', author: 'Mawlana Rumi'),
-    Quote(text: '10', author: 'Mawlana Rumi'),
+    Quote(text: '5', author: 'author'),
+    Quote(text: 'Some text', author: ' me'),
+    Quote(text: 'Some random quote', author: 'some random author'),
+    Quote(text: 'hey you yes you go study', author: 'Me'),
+    Quote(text: '9', author: 'ABC'),
+    Quote(text: '10', author: 'DEF'),
     Quote(text: 'Made with Love', author: 'By Mohammed Moinuddin'),
     Quote(text: 'Reach me out on Insta and GitHub', author: '@Moinuddin9777')
   ];
