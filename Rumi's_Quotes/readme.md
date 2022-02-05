@@ -3,11 +3,11 @@ intro: Mawlana Jalaluddin Rumi more popularly known simply as Rumi, was a 13th-c
 ## About App
 #### Type - Stateful
 #### This app uses
-- A class made for rendering list of quotes
+- A custom class made for rendering list of quotes and author
 - Single Child Scrollview widget 
 - Cards
 - Curved app bar 
-- google fonts 
+- google fonts
 #### Emulator Overview
 
 ![image](https://user-images.githubusercontent.com/76849575/152339788-c089fa6d-9816-4410-89bd-aee0719df5e1.png)
