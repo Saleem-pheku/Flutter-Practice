@@ -11,5 +11,5 @@ intro: Mawlana Jalaluddin Rumi more popularly known simply as Rumi, was a 13th-c
 #### Emulator Overview
 
 ![image](https://user-images.githubusercontent.com/76849575/152339788-c089fa6d-9816-4410-89bd-aee0719df5e1.png)
-
-#### May face presentaional Issues and Bugs in various devices
+#### apk file is provided in the repo
+#### NOTE: May face presentaional Issues and Bugs in various devices
