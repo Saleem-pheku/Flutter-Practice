@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'The  Moin App ',
+          'The  Random App ',
           style: GoogleFonts.abrilFatface(textStyle: TextStyle(color: Colors.white)
           ),
         ),
