@@ -48,12 +48,12 @@ class NinjaCard extends StatelessWidget {
             ),
             Text(
               'A fresher role across growing IT companies to give my career a kickstart',
-              style: GoogleFonts.exo2(textStyle: TextStyle(color: Colors.amberAccent),fontSize: 20 ,fontStyle: FontStyle.italic, letterSpacing: 2,),
+              style: GoogleFonts.exo2(textStyle: TextStyle(color: Colors.amberAccent),fontSize: 20 ,fontStyle: FontStyle.italic, letterSpacing: 1,),
             ),
             SizedBox(height: 15),
             Text(
               'Im good at:',
-              style: GoogleFonts.josefinSans(textStyle: TextStyle(color: Colors.white),fontSize: 22,fontWeight: FontWeight.bold , letterSpacing: 2,
+              style: GoogleFonts.josefinSans(textStyle: TextStyle(color: Colors.white),fontSize: 21,fontWeight: FontWeight.bold , letterSpacing: 2,
               ),
             ),
             Image(image: AssetImage('assets/good_at.png'),),
